@@ -1,3 +1,11 @@
+function table.getn(t)
+	local count = 0
+    for _, __ in pairs(t) do
+        count = count + 1
+    end
+    return count
+end
+
 function table.tostring(t)
 	local i,o,r,ltype
 	local ln = table.getn(t) -- Realiza una verificación
