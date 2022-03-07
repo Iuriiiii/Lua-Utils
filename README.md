@@ -1,3 +1,3 @@
 # Lua Utils
 
-Here some utils functions for lua just for you. :)
+Here some utils functions of `Lua` for you :)
